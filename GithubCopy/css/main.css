@@ -23,6 +23,19 @@ body {
     float:right;
 }
 
+/*SUMMARY*/
+.summary {
+
+}
+
+.summary__title {
+
+}
+
+.summary__description {
+
+}
+
 a{
     text-decoration: none;
 }
@@ -181,4 +194,17 @@ header .sub-menu li a {
 
 header .sub-menu li a:hover {
     color: #4078c0;
+}
+
+/* VISUAL */
+
+.section--visual {
+   
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.section--visual .summary {
+
 }
