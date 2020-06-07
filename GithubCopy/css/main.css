@@ -349,30 +349,29 @@ header .sub-menu li a:hover {
     max-width: 1200px;
 }
 
-.section--feature .tiles  ul{
-    
-}
+.section--feature .tiles ul {}
 
-.section--feature .tiles  li{
+.section--feature .tiles li {
     padding: 34px 24px;
     text-align: center;
     line-height: 1.5;
     margin-right: 1px solid #e5e5e5;
     box-sizing: border-box;
-    float:left;
+    float: left;
     width: 25%;
 }
 
-.section--feature .tiles  li:last-child{
+.section--feature .tiles li:last-child {
     border-right: none;
 }
 
-.section--feature .tiles  li img{
-        max-width: 100%;
-        padding: 14px 10% 24px;
-        box-sizing: border-box;
+.section--feature .tiles li img {
+    max-width: 100%;
+    padding: 14px 10% 24px;
+    box-sizing: border-box;
 }
-.section--feature .tiles  h3{
+
+.section--feature .tiles h3 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -386,18 +385,16 @@ header .sub-menu li a:hover {
 
 /* WEHRE is */
 
-.section--where-is {
+.section--where-is {}
 
-}
-
-.section--where-is .inner{
+.section--where-is .inner {
     padding-top: 80px;
 }
 
- #map {
+#map {
     width: 100%;
     height: 400px;
-    margin-top: 40px ;
+    margin-top: 40px;
     border: 1px solid rgba(0, 0, 0, .2);
     border-bottom: none;
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
@@ -407,11 +404,11 @@ header .sub-menu li a:hover {
 /* PRICING CARD */
 
 .section--pricing {
- background: linear-gradient(#f5f5f5,#ffff);
+    background: linear-gradient(#f5f5f5, #ffff);
 }
 
 .section--pricing .inner {
-    padding:  80px 0;
+    padding: 80px 0;
 }
 
 .section--pricing .card {
@@ -421,8 +418,8 @@ header .sub-menu li a:hover {
     box-sizing: border-box;
 }
 
-.section--pricing .card .cell{
-    padding:24px;
+.section--pricing .card .cell {
+    padding: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,14 +427,40 @@ header .sub-menu li a:hover {
 
 .section--pricing .card .cell1 {
     height: 50px;
-    font-size:16px;
+    font-size: 16px;
 }
 
-.section--pricing .card .cell2{
+.section--pricing .card .cell2 {
     font-size: 22px;
     font-weight: 300px;
     line-height: 1.5;
-    flex:1;
+    flex: 1;
     border-left: 1px solid #e5e5e5;
 }
 
+/* FOOTER */
+
+footer {}
+
+footer .inner {
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+}
+
+footer .site-links {
+    display: flex;
+}
+
+footer.site-links li {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #767676;
+}
+
+footer.site-links li a{ 
+    color: #4078c0;
+}
+
+footer.site-links li a:hover{ 
+    text-decoration: underline;
+}
