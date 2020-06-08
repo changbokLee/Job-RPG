@@ -445,7 +445,7 @@ footer {}
 footer .inner {
     padding: 50px 0;
     border-top: 1px solid #eee;
-    
+
 }
 
 footer .site-links {
@@ -458,16 +458,16 @@ footer.site-links li {
     color: #767676;
 }
 
-footer.site-links li a{ 
+footer.site-links li a {
     color: #4078c0;
 }
 
-footer.site-links li a:hover{ 
+footer.site-links li a:hover {
     text-decoration: underline;
 }
 
-footer .logo{
-   position: absolute;
+footer .logo {
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -476,6 +476,25 @@ footer .logo{
     width: 24px;
     height: 24px;
 }
-footer .logo:hover svg{
+
+footer .logo:hover svg {
     fill: #4078c0;
+}
+
+
+/* MEDIA */
+
+@media (max-width:1024px) {
+    header .inner {
+        max-width: none;
+        height: auto;
+        padding: 0 20px;
+    }
+
+    header .menu-group .sign-group {
+        float: none;
+    }
+    header .toggle {
+        display: none;
+    }
 }
