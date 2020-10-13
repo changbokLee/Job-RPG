@@ -18,6 +18,15 @@ p{
 
 }
 
+a{
+    color: rgb(29, 29, 31);
+    text-decoration: none;
+}
+
+.local-nav {
+    height: 52px;
+    border-bottom: 1px solid #ddd;
+}
 .global-nav {
     height: 44px;
 }
@@ -36,3 +45,17 @@ p{
 .global-nav-links{
     justify-content: space-between;
 }
+
+.product-name {
+    margin-right:auto;
+
+}
+
+.local-nav-links a {
+    font-size: 0.8rem;
+}
+
+.local-nav-links a:not(.product-name) {
+  margin-left: 2em;
+}
+
